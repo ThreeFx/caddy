@@ -1,6 +1,8 @@
-module github.com/caddyserver/caddy/v2
+module github.com/ThreeFx/caddy/v2
 
 go 1.17
+
+replace github.com/caddy/certmagic => github.com/ThreeFx/certmagic v0.16.2
 
 require (
 	github.com/BurntSushi/toml v1.0.0
